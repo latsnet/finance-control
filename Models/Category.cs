@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace mvc_project.Models;
+namespace finance_control.Models;
 
 [Table("Categories")]
 public class Category
