@@ -18,5 +18,7 @@ public class Category
     [Required(ErrorMessage = "Please inform the description")]
     [Display(Name = "Description")]
     public string Description { get; set; }
+
+    public Category ParentCategory { get; set; }
     
 }
