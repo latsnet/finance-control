@@ -4,16 +4,16 @@ using finance_control.Repositories.Interfaces;
 
 namespace finance_control.Repositories;
 
-public class CategoryRepository : ICategoryRepository
+public class BankRepository : IBankRepository
 {
 
     private readonly AppDbContext _context;
 
-    public CategoryRepository(AppDbContext context)
+    public BankRepository(AppDbContext context)
     {
-        this._context = context;
+        _context = context;
     }
 
-    public IEnumerable<Category> Categories => _context.Categories;
+    public IEnumerable<Bank> Banks { get; }
     
 }
