@@ -17,4 +17,14 @@ public class TagController : Controller
         return View();
     }
 
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    public IActionResult Edit(int tagId)
+    {
+        return View();
+    }
+
 }
