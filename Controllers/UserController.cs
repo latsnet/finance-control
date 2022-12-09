@@ -17,4 +17,19 @@ public class UserController : Controller
         return View();
     }
 
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    public IActionResult Edit(int userId)
+    {
+        return View();
+    }
+
+    public IActionResult Delete(int userId)
+    {
+        return View();
+    }
+
 }

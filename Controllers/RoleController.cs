@@ -16,4 +16,19 @@ public class RoleController : Controller
         return View();
     }
 
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    public IActionResult Edit(int roleId)
+    {
+        return View();
+    }
+
+    public IActionResult Delete(int roleId)
+    {
+        return View();
+    }
+
 }

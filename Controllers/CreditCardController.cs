@@ -17,4 +17,19 @@ public class CreditCardController : Controller
         return View();
     }
 
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    public IActionResult Edit(int creditCardId)
+    {
+        return View();
+    }
+
+    public IActionResult Delete(int creditCardId)
+    {
+        return View();
+    }
+
 }

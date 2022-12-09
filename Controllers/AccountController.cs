@@ -19,5 +19,20 @@ public class AccountController : Controller
         return View();
     }
 
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    public IActionResult Edit(int accountId)
+    {
+        return View();
+    }
+
+    public IActionResult Delete(int accountId)
+    {
+        return View();
+    }
+
 
 }

@@ -27,4 +27,9 @@ public class TagController : Controller
         return View();
     }
 
+    public IActionResult Delete(int tagId)
+    {
+        return View();
+    }
+
 }
